@@ -1,0 +1,33 @@
+/* 위치 및 연락처 섹션 */
+#location {
+    background: url('../images/background2.jpg') no-repeat center center/cover;
+    color: #fff;
+  }
+  
+  #location h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  #location p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #location img {
+    border: 5px solid #fff;
+    border-radius: 5px;
+  }
+  /* 위치 및 연락처 섹션을 오른쪽으로 이동시키는 스타일 */
+.location {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* 위치 이미지를 왼쪽으로 정렬하는 스타일 */
+  .contact__map img {
+    float: left;
+    margin-right: 20px;
+  }
+  
